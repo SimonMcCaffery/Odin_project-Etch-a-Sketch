@@ -1,0 +1,29 @@
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 520px;
+    height: 520px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 480px;
+    height: 480px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.smallSquare{
+    background-color: red;    
+}
